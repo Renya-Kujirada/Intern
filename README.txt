@@ -1,0 +1,1 @@
+各検証における設定は，slideやproperty.csvを参照して下さい．

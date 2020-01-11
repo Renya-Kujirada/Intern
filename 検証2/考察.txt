@@ -1,0 +1,19 @@
+・final time が600秒以下のものが多数存在（ex_8）
+・InsertBetweenを行わない試行では評価値が極端に悪い（ex_5）
+
+・swapBetweenとInsertBetweenの選択割合を多くした試行（ex_6）では，
+　同じ都市を選択した際にもう一度選びなおす処理において，SAでiterateしないため
+　最終的なiteration回数は少なくなると考察したが，結果は予想通り．
+　しかし，swapInside，InsertInsideの選択割合が0の試行（ex_2,ex_3）でも最終iterationが少なかった．
+　この原因は，．．．
+
+
+★
+
+★高速化を実現するには
+　→DLBの実現（無駄な近傍操作の回避）
+
+★
+
+
+★5分のやつ実行（明日朝）→expSuite_0_InitialExperiment
